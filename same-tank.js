@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         same Tank
+// @name         same Tank (beta)
 // @namespace    http://tampermonkey.net/
 // @version      0.2
 // @description  ...
