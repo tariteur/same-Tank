@@ -1,5 +1,5 @@
 # same-Tank
-how to use:
+how to use: (create the same elements as diep.io (the style is only usable on diep.io))
 
 -create a button:
     GUI_create(id, Class, text, x, y,width, height, color, border, fontSize, callback, ONOFF)
