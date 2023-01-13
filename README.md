@@ -52,7 +52,7 @@ GUI_create(id, Class, text, x, y,width, height, color, border, fontSize, callbac
 <p>.callback: A callback function that will be called when the slider value changes.
   
 ```javascript
-GUI_create_Modal(id, Class, x, y, width, height, color, borderColor)
+GUI_create_slider(id, Class, min, max, step, value, x, y, width, height, callback)
 ```
 # Text_create
 <p>The Text_create function allows you to create a text element on your webpage. It takes the following parameters:
@@ -64,6 +64,7 @@ GUI_create_Modal(id, Class, x, y, width, height, color, borderColor)
 <p>t.ext: The text content of the element.
   
 ```javascript
+  Text_create(id, Class, x, y, text)
 ```
 # GUI_changeName
 <p>The GUI_changeName function allows you to change the text content of an element on your webpage. It takes the following parameters:
@@ -72,6 +73,7 @@ GUI_create_Modal(id, Class, x, y, width, height, color, borderColor)
 <p>.text: The new text content of the element.
   
 ```javascript
+  GUI_changeName(id, text)
 ```
 # GUI_hide_or_show
 <p>The GUI_hide_or_show function allows you to hide or show an element on your webpage. It takes the following parameters:
@@ -81,6 +83,7 @@ GUI_create_Modal(id, Class, x, y, width, height, color, borderColor)
 <p>.truefalse: A boolean value indicating whether to hide or show the element. If no value is provided, the function will reverse the current visibility state of the <p>element.
   
 ```javascript
+  GUI_hide_or_show(type, id_class, truefalse)
 ```
 # GUI_delete
 <p>The GUI_delete function allows you to delete an element from your webpage. It takes the following parameters:
@@ -89,4 +92,5 @@ GUI_create_Modal(id, Class, x, y, width, height, color, borderColor)
 <p>.id_class: The id or class name of the element you want to delete.
   
 ```javascript
+  GUI_delete(type, id_class) 
 ```
