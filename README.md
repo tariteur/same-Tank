@@ -1,10 +1,10 @@
-<p># same-Tank
+# same-Tank
 <p>same-Tank is a JavaScript library that allows you to create and manipulate elements on a webpage in a similar way to the popular game diep.io.
 
-<p>#Installation
+#Installation
 <p>-To use same-Tank, you can either download the library from GitHub and include it in your project, or install it using npm:
 
-<p>#GUI_create
+#GUI_create
 <p>-The GUI_create function allows you to create a button element on your webpage. It takes the following parameters:
 
 <p>.id: The id of the button element.
@@ -20,7 +20,7 @@
 <p>.callback: A callback function that will be called when the button is clicked.
 <p>.ONOFF: The initial state of the button.
 
-<p>#GUI_create_Modal
+#GUI_create_Modal
 <p>-The GUI_create_Modal function allows you to create a Modal element on your webpage. A Modal element is a plate. It takes the following parameters:
 
 <p>.id: The id of the Modal element.
