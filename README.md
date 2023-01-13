@@ -1,5 +1,5 @@
 # same-Tank
-<p>same-Tank is a JavaScript library that allows you to create and manipulate elements on a webpage in a similar way to the popular game diep.io.
+<p>same-Tank is a JavaScript library that allows you to create and manipulate elements on a webpage, However, the styles of the elements created with the same-Tank library are only usable on the diep.io game.
 
 # Installation
 <p>-To use same-Tank, // @require https://greasyfork.org/scripts/456843-diep-shortcut/code/diep_Shortcut.js?version=1137837
