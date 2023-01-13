@@ -19,7 +19,11 @@
 <p>.fontSize: The font size of the button.
 <p>.callback: A callback function that will be called when the button is clicked.
 <p>.ONOFF: The initial state of the button.
-
+  
+```javascript
+import * as sameTank from 'same-tank';
+```
+  
 #GUI_create_Modal
 <p>-The GUI_create_Modal function allows you to create a Modal element on your webpage. A Modal element is a plate. It takes the following parameters:
 
