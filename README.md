@@ -2,7 +2,7 @@
 <p>same-Tank is a JavaScript library that allows you to create and manipulate elements on a webpage, However, the styles of the elements created with the same-Tank library are only usable on the diep.io game.
 
 ## Installation
-<p>-To use same-Tank, // @require https://greasyfork.org/scripts/456843-diep-shortcut/code/diep_Shortcut.js?version=1137837
+<p>-To use same-Tank, // @require https://greasyfork.org/scripts/456843-diep-shortcut/code/diep_Shortcut.js?version=1138192
 
 ## GUI_create
 <p>-The GUI_create function allows you to create a button element on your webpage. It takes the following parameters:
