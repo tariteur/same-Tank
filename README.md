@@ -32,43 +32,45 @@
 <p>.color: The background color of the Modal.
 <p>.borderColor: The border color of the Modal.
   
-GUI_create_slider
-The GUI_create_slider function allows you to create a slider element on your webpage. It takes the following parameters:
+<p>#GUI_create_slider
+<p>The GUI_create_slider function allows you to create a slider element on your webpage. It takes the following parameters:
 
-id: The id of the slider element.
-Class: The class of the slider element.
-min: The minimum value of the slider.
-max: The maximum value of the slider.
-step: The step value of the slider.
-value: The initial value of the slider.
-x: The x-coordinate of the slider.
-y: The y-coordinate of the slider.
-width: The width of the slider.
-height: The height of the slider.
-callback: A callback function that will be called when the slider value changes.
-Text_create
-The Text_create function allows you to create a text element on your webpage. It takes the following parameters:
-
-id: The id of the text element.
-Class: The class of the text element.
-x: The x-coord
-y: The y-coordinate of the text element.
-text: The text content of the element.
+<p>.id: The id of the slider element.
+<p>.Class: The class of the slider element.
+<p>.min: The minimum value of the slider.
+<p>.max: The maximum value of the slider.
+<p>.step: The step value of the slider.
+<p>.value: The initial value of the slider.
+<p>.x: The x-coordinate of the slider.
+<p>.y: The y-coordinate of the slider.
+<p>.width: The width of the slider.
+<p>.height: The height of the slider.
+<p>.callback: A callback function that will be called when the slider value changes.
   
-GUI_changeName
-The GUI_changeName function allows you to change the text content of an element on your webpage. It takes the following parameters:
+<p>Text_create
+<p>The Text_create function allows you to create a text element on your webpage. It takes the following parameters:
 
-id: The id of the element you want to change the text content of.
-text: The new text content of the element.
-GUI_hide_or_show
-The GUI_hide_or_show function allows you to hide or show an element on your webpage. It takes the following parameters:
-
-type: The type of the element you want to hide or show, either "id" or "class".
-id_class: The id or class name of the element you want to hide or show.
-truefalse: A boolean value indicating whether to hide or show the element. If no value is provided, the function will reverse the current visibility state of the element.
+<p>.id: The id of the text element.
+<p>.Class: The class of the text element.
+<p>.x: The x-coord
+<p>.y: The y-coordinate of the text element.
+<p>t.ext: The text content of the element.
   
-GUI_delete
-The GUI_delete function allows you to delete an element from your webpage. It takes the following parameters:
+<p>GUI_changeName
+<p>The GUI_changeName function allows you to change the text content of an element on your webpage. It takes the following parameters:
 
-type: The type of the element you want to delete, either "id" or "class".
-id_class: The id or class name of the element you want to delete.
+<p>.id: The id of the element you want to change the text content of.
+<p>.text: The new text content of the element.
+  
+<p>GUI_hide_or_show
+<p>The GUI_hide_or_show function allows you to hide or show an element on your webpage. It takes the following parameters:
+
+<p>type: The type of the element you want to hide or show, either "id" or "class".
+<p>.id_class: The id or class name of the element you want to hide or show.
+<p>.truefalse: A boolean value indicating whether to hide or show the element. If no value is provided, the function will reverse the current visibility state of the <p>element.
+  
+<p>GUI_delete
+<p>The GUI_delete function allows you to delete an element from your webpage. It takes the following parameters:
+
+<p>.type: The type of the element you want to delete, either "id" or "class".
+<p>.id_class: The id or class name of the element you want to delete.
