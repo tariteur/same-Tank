@@ -1,10 +1,10 @@
 # same-Tank
 <p>same-Tank is a JavaScript library that allows you to create and manipulate elements on a webpage, However, the styles of the elements created with the same-Tank library are only usable on the diep.io game.
 
-# Installation
+## Installation
 <p>-To use same-Tank, // @require https://greasyfork.org/scripts/456843-diep-shortcut/code/diep_Shortcut.js?version=1137837
 
-# GUI_create
+## GUI_create
 <p>-The GUI_create function allows you to create a button element on your webpage. It takes the following parameters:
 
 <p>.id: The id of the button element.
@@ -24,7 +24,7 @@
 GUI_create(id, Class, text, x, y,width, height, color, border, fontSize, callback, ONOFF)
 ```
   
-# GUI_create_Modal
+## GUI_create_Modal
 <p>-The GUI_create_Modal function allows you to create a Modal element on your webpage. A Modal element is a plate. It takes the following parameters:
 
 <p>.id: The id of the Modal element.
@@ -39,7 +39,7 @@ GUI_create(id, Class, text, x, y,width, height, color, border, fontSize, callbac
 ```javascript
 GUI_create_Modal(id, Class, x, y, width, height, color, borderColor)
 ```
-# GUI_create_slider
+## GUI_create_slider
 <p>The GUI_create_slider function allows you to create a slider element on your webpage. It takes the following parameters:
 
 <p>.id: The id of the slider element.
@@ -57,7 +57,7 @@ GUI_create_Modal(id, Class, x, y, width, height, color, borderColor)
 ```javascript
 GUI_create_slider(id, Class, min, max, step, value, x, y, width, height, callback)
 ```
-# Text_create
+## Text_create
 <p>The Text_create function allows you to create a text element on your webpage. It takes the following parameters:
 
 <p>.id: The id of the text element.
@@ -69,7 +69,7 @@ GUI_create_slider(id, Class, min, max, step, value, x, y, width, height, callbac
 ```javascript
 Text_create(id, Class, x, y, text)
 ```
-# GUI_changeName
+## GUI_changeName
 <p>The GUI_changeName function allows you to change the text content of an element on your webpage. It takes the following parameters:
 
 <p>.id: The id of the element you want to change the text content of.
@@ -78,7 +78,7 @@ Text_create(id, Class, x, y, text)
 ```javascript
 GUI_changeName(id, text)
 ```
-# GUI_hide_or_show
+## GUI_hide_or_show
 <p>The GUI_hide_or_show function allows you to hide or show an element on your webpage. It takes the following parameters:
 
 <p>type: The type of the element you want to hide or show, either "id" or "class".
